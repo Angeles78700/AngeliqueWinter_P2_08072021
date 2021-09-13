@@ -12,6 +12,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
   </head>
   <body>
+    <main class="container">
+     <!--Header-->
+     <header>
+      <div id="logo">
+          <img src="images/logo/Reservia.svg" 
+          alt="" />
+      </div>
+      <nav>
+          <div class="hebergements-activites">
+              <a class="headernavlink" href="#hebergement">Hébergements</a>
+              <a class="headernavlink" href="#Activités_à_Marseille">Activités</a>
+          </div>
+          <a class="headersignup" href="#">S'inscrire</a>
+      </nav>
+  </header>
+    <div class="header2">
+      <div class="titre_principal">
+        <div class="titre _trouvez">
+          <h3>Trouvez votre hébérgement pour des vacances de rêve</h3>
+        </div>
+        <div class="titre_en_plein">
+          <p>En plein centre ville ou en pleine nature</p>
+        </div>
+      </div>
+</header>
     <div id="container-recherche">
       <i class="fas fa-map-marker-alt search_area_icon"></i>
       <input type="search" class="type-search" placeholder="Marseille, France" name="location-search">
@@ -49,7 +74,7 @@
         <h3>Hebergement à marseille</h3>
         <div class="cards-container">
           <div class="cards-line">
-            <div class="card">
+            <a class="card">
               <div>
                 <img
                   src="images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg"
@@ -67,8 +92,8 @@
                   <i class="fas fa-star etoile-off"></i>
                 </p>
               </div>
-            </div>
-            <div class="card">
+            </a>
+            <a class="card">
               <div>
                 <img
                   src="images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg"
@@ -86,8 +111,8 @@
                   <i class="fas fa-star etoile-on"></i>
                 </p>
               </div>
-            </div>
-            <div class="card">
+            </a>
+            <a class="card">
               <div>
                 <img
                   src="images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg"
@@ -105,10 +130,10 @@
                   <i class="fas fa-star etoile-off"></i>
                 </p>
               </div>
-            </div>
+            </a>
           </div>
           <div class="cards-line">
-            <div class="card">
+            <a class="card">
               <div>
                 <img
                   src="images/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg"
@@ -126,8 +151,8 @@
                   <i class="fas fa-star etoile-off"></i>
                 </p>
               </div>
-            </div>
-            <div class="card">
+            </a>
+            <a class="card">
               <div>
                 <img
                   src="images/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg"
@@ -145,8 +170,8 @@
                   <i class="fas fa-star etoile-off"></i>
                 </p>
               </div>
-            </div>
-            <div class="card">
+            </a>
+            <a class="card">
               <div>
                 <img
                   src="images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg"
@@ -164,7 +189,7 @@
                   <i class="fas fa-star etoile-on"></i>
                 </p>
               </div>
-            </div>
+            </a>
           </div>
           <div class="hebergement_montrer_plus">Afficher plus</div>
         </div>
@@ -177,7 +202,7 @@
     
         <div class="pop-cards-container">
     
-          <div class="card">
+          <a class="card">
             <div class="images-plus-populaires">
               <img
                 src="images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg"
@@ -195,9 +220,9 @@
               <i class="fas fa-star etoile-on"></i>
             </p>   
           </div>
-        </div>
+        </a>
     
-        <div class="card">
+        <a class="card">
           <div class="images-plus-populaires">
             <img
             src="images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg"
@@ -216,8 +241,8 @@
             <i class="fas fa-star etoile-off"></i>
           </p> 
     </div>
-  </div>
-        <div class="card">
+  </a>
+        <a class="card">
           <div class="images-plus-populaires">
             <img
             src="images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg"
@@ -235,24 +260,79 @@
             <i class="fas fa-star etoile-off"></i>
           </p> 
       </div>
-    </div>   
+    </a>   
   </div> 
       </div>
- </div>
-  <div class="Activity" id="Activity"> 
-  <h2 class="Activitytitle">Activitées à Marseille</h2>
-  <a href="#" class="card-activity">
-    <div class="activityCardWrapImg">
-      <img
-      class="activityCardWrapImg"
-      src="./images/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg"
-      alt=""
-      />
-    </div>
-    <h3 class="activityCardTitle">Vieux port</h3>  
-  </a>
   </div>
-  </section>  
+  
+  <section class="grid">
+    <h1>Title</h1>
+    <a href="#" class="card one">
+      <div class="img-container">
+        <img
+          src="img/activity/medium/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg"
+          alt=""
+        />
+      </div>
+      <div class="title">Title</div>
+    </a>
+    <a href="#" class="card two">
+      <div class="img-container">
+        <img
+          src="img/activity/small/paul-hermann-QFTrLdQIRhI-unsplash.jpg"
+          alt=""
+        />
+      </div>
+      <div class="title">Title</div>
+    </a>
+    <a href="#" class="card three">
+      <div class="img-container">
+        <img
+          src="img/activity/medium/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg"
+          alt=""
+        />
+      </div>
+      <div class="title">Title</div>
+    </a>
+    <a href="#" class="card four">
+      <div class="img-container">
+        <img
+          src="img/activity/small/florian-wehde-xW9e8gdotxI-unsplash.jpg"
+          alt=""
+        />
+      </div>
+      <div class="title">Title</div>
+    </a>
+    <a href="#" class="card five">
+      <div class="img-container">
+        <img
+          src="img/activity/small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg"
+          alt=""
+        />
+      </div>
+      <div class="title">Title</div>
+    </a>
+    <a href="#" class="card six">
+      <div class="img-container">
+        <img
+          src="img/activity/small/lena-paulin-wH2-EJoDcV0-unsplash.jpg"
+          alt=""
+        />
+      </div>
+      <div class="title">Title</div>
+    </a>
+  </section>
+</main>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
 </body>
 <footer>
   <div class="">
@@ -274,13 +354,121 @@
     <a href="#">Centre d'aide</a><br>
     <a href="#">Nous contacter</a>
   </div>
-    </footer>
+   
   </footer>
 </html>
 
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
-      
+
+/*General*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1350px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    font-size: large;
+}
+
+p {
+    font-size: small;
+}
+
+h3 {
+    font-weight: bold;
+}
+
+/* Header*/
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 0px;
+}
+
+.headernavlink {
+    padding-top: 30px;
+}
+
+/*Navigation*/
+
+.fas {
+    color: #0065fc;
+}
+
+.navigation {
+    display: flex;
+}
+
+nav a {
+    font-size: 0.9em;
+    color: black;
+    padding-top: 3px;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-style: normal;
+}
+
+a:hover {
+    text-decoration: #0065FC;
+    color: #0065FC;
+}
+
+header nav a {
+    margin-left: 20px;
+}
+
+header nav {
+    display: flex;
+    align-items: center;
+}
+
+.hebergements-activites a:hover {
+    border-top: 3px solid #0065FC;
+}
+
+.headersignup {
+    color: #0065FC;
+    font-weight: bold;
+    margin-right: 10px;
+}
+/*Navigation*/
+
+.fas {
+    color: black;
+}
+
+.navigation {
+    display: flex;
+}
+
+nav a {
+    font-size: 0.9em;
+    color: black;
+    padding-top: 3px;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-style: normal;
+} 
+
 * {
     font-family: 'Raleway', sans-serif;  
 }
@@ -326,13 +514,14 @@
     font-size: 20px;
     background-color: #D3D3D3;
     width: 40px;
-    height: 40px;
+    height: 50px;
     border-radius: 20px 0px 0px 20px;
 }
 body {
   min-width: 340px;
   max-width: 1440px;
   margin: 0 auto;
+  overflow-x: hidden;
 }
 
 .boutonfiltre p {
@@ -415,11 +604,11 @@ body {
     justify-content: center;
     align-items: center;
     color: #0065FC;
-    font-size: 0.9em;
-	margin-bottom: 20px;
-    border: 2px solid #DEEBFF;
-    border-radius: 50%;
-    margin-right: 10px;
+    font-size: 0.7em;
+  	margin-bottom: 10px;
+    border: 1px solid #DEEBFF;
+    border-radius: 25%;
+    margin-right: 25px;
 }
 
 .conteneur-logement
@@ -592,6 +781,64 @@ a {
     text-decoration: none;
   }
 
+
+/* ***************  grid ********************* */
+
+ .grid {
+    display: grid;
+    column-gap: 2rem;
+    margin: 4rem 0;
+  }
+  
+  .img-container {
+    position: relative;
+    flex: 1;
+  }
+
+
+  .grid h1 {
+    grid-column: 1/-1;
+  }
+
+ .grid img {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+  
+  .card.one {
+      grid-row: 2/7;
+      grid-column: 1/2;
+    }
+
+    .card.two {
+      grid-column: 2/3;
+      grid-row: 2/5;
+    }
+
+    .card.three {
+      grid-column: 3/4;
+      grid-row: 2/7;
+    }
+
+    .card.four {
+      grid-column: 4/5;
+      grid-row: 2/3;
+    }
+
+    .card.five {
+      grid-column: 2/3;
+      grid-row: 6/7;
+    }
+
+    .card.six {
+      grid-column: 4/5;
+      grid-row: 4/7;
+    }
+
+/* ***************** footer ****************** */
+
   footer {
     background-color: lightgrey;
     display: flex;
@@ -720,7 +967,11 @@ a {
     width: 100%;
   }
     }
+
+  
+
   </style> 
  
   </html>
 
+    
