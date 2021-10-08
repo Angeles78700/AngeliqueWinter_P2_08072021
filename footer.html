@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta charset="utf-8">
+  <title>Titre de la page</title>
+</head>
+<body>
+  <footer>
+    <div class="">
+      <strong>A propos</strong><br>
+      <br>
+      <a href="#">Fonctionnement du site</a><br>
+      <a href="#">Condition générales de vente</a><br>
+      <a href="#">Données de confidentialité</a>
+    </div>
+    <div class="">
+      <strong>Nos hébergements</strong><br>
+      <br>
+      <a href="#">Charte qualité</a><br>
+      <a href="#">Soumettre votre hôtel</a>
+    </div>
+    <div class="">
+      <strong>Assistance</strong><br>
+      <br>
+      <a href="#">Centre d'aide</a><br>
+      <a href="#">Nous contacter</a>
+    </div>
+      </footer>
+    </footer>
+</body>
+</html>
+<style>
+  body {
+    min-width: 350px;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 10px;
+  }
+
+  a {
+    color: black;
+    text-decoration: none;
+  }
+
+  footer {
+    background-color: lightgrey;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+  }
+
+  /* Only desktop */
+  @media screen and (min-width: 1024px) {}
+
+  /* tablet */
+  @media screen and (min-width: 768px) and (max-width: 1023px) {}
+
+  /* mobile */
+  @media screen and (max-width: 767px) {
+    
+    footer {
+      flex-direction: column;
+      gap: 2rem;
+    }
+
+    footer > div {
+      
+    }
+</style>
