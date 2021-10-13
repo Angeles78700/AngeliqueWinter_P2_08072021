@@ -519,7 +519,7 @@ a {
 
 .activities h2 {
   grid-column: 1/-1;
-  padding-bottom: 0px;
+  padding-bottom: 10px;
   margin: 5px;
 }
 
@@ -781,6 +781,11 @@ footer {
     row-gap: 2rem;
     grid-template-columns: 1fr;
     grid-template-rows: auto 12rem 12rem 12rem 12rem 12rem 12rem;
+  }
+
+  .activities h2 {
+    padding: 0px;
+    margin: 5px;
   }
 
   .recherche_bouton {
