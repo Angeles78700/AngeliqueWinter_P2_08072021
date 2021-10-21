@@ -2,6 +2,7 @@
 
 /**************************General**************************************/
 
+
 /* Header */
 
 .register_link {
@@ -67,8 +68,7 @@ body {
   min-width: 340px;
   max-width: 1440px;
   margin: 0 auto;
-  overflow-x: hidden;
-  padding: 15px;
+  padding: 10px;
 }
 
 .menu {
@@ -161,13 +161,13 @@ h3 {
 }
 
 .type-search {
-    width: 15%;
-    padding: 10px;
-    font-size: 1em;
-    border: solid #ddd;
-  }
+  width: 15%;
+  padding: 10px;
+  font-size: 1em;
+  border: solid #ddd;
+}
 
-  .type-search::placeholder {
+.type-search::placeholder {
   color: black;
   font-weight: 600;
   font-size: 16px;
@@ -189,7 +189,6 @@ h3 {
   cursor: pointer;
 }
 
-
 .recherche_bouton {
   background-color: #0065fc;
   border-radius: 0px 15px 15px 0px;
@@ -201,7 +200,6 @@ h3 {
   padding-right: 1.5%;
   cursor: pointer;
 }
-
 
 .search_area_icon {
   display: flex !important;
@@ -415,7 +413,6 @@ p {
   border-radius: 10px;
   padding: 30px;
 }
-
 
 .pop-title-container {
   display: flex;
@@ -706,13 +703,11 @@ footer {
     font-size: 1em;
     border: solid #f2f2f2;
   }
-
 }
 
 /********************** Mobil ******************************/
 
 @media screen and (max-width: 767px) {
-
   .body {
     margin-right: 0px;
     margin-left: 0px;
@@ -842,7 +837,7 @@ footer {
     gap: 2rem;
   }
 
-  .activity h1{
+  .activity h1 {
     margin: 10px;
     padding: 0px;
   }
@@ -851,9 +846,8 @@ footer {
     row-gap: 2rem;
     grid-template-columns: 1fr;
     grid-template-rows: auto 12rem 12rem 12rem 12rem 12rem 12rem;
-    padding: 15px; 
+    padding: 15px;
   }
-
 
   .navigation-link-mobile {
     border: 30px solid transparent;
