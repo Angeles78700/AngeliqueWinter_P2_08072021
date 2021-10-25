@@ -66,6 +66,8 @@ nav ul {
 }
 
 body {
+  min-width: 340px;
+  max-width: 1440px;
   margin: 0;
   padding: 10px;
 }
